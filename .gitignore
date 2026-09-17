@@ -1,0 +1,12 @@
+# Never commit the Gemini key. A key committed once stays in the history
+# even after it is deleted, so this file exists before the first commit.
+.env
+.env.local
+.env.*.local
+
+.DS_Store
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
