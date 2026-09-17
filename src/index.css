@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0d0f12;
+    color: #e2e8f0;
+  }
+}
+
+.font-display {
+  font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+}
+
+.font-sans {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Quote highlight effect in advert preview */
+mark.quote-highlight {
+  background-color: #3b2812;
+  color: #fbbf24;
+  border-bottom: 2px solid #f59e0b;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.2rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+mark.quote-highlight.active {
+  background-color: #593507;
+  color: #fef3c7;
+  box-shadow: 0 0 0 2px #f59e0b;
+}

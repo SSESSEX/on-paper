@@ -1,0 +1,6 @@
+{
+  "name": "On Paper",
+  "description": "What this advert actually commits to in writing. Extracts and verifies seven specific commitments with exact quoted evidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
